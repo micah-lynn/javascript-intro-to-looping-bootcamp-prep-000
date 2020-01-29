@@ -1,10 +1,6 @@
 function forLoop(array) {
   for (i=0; i<26; i++) {
-    if (i===0){
-      console.log (`I am ${i} strange loop.`)
-    } else {
-      console.log (`I am ${i} strange loops.`)
-    }
+    console.log (`I am ${i} strange loop${i===0.`)
   }
 }
 
